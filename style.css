@@ -7,27 +7,56 @@ div{
     height: 295px;
     width: 120px;
     background-color:rgb(39, 118, 145);
+header{
+    background-color: blue;
+    overflow: auto;
     text-align: center;
 }
 button{
    padding: 5px;
-   margin: 5px;
-   width: 100px;
    background-color: rgb(50, 50, 78);
    color: lightgray;
+li{
+    float: left;
+    margin-left: 10px;
 }
 button:hover{
     background-color: black;
+ul{
+    list-style-type: none;
 }
 h4{
    margin-bottom: 10px;  
+aside{
+    height:35vw;
+    width: 200px;
+    overflow: auto;
+    background-color: lightblue;
+    float: left;
+    text-align: center;
+}
+main{
+    height: 35vw;
+    width: 407px;
+    background-color: aqua;
+    float: right;
 }
 body{
     background-image: url(https://media.licdn.com/dms/image/v2/D4D12AQGxbLKDFkuENA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1661451221419?e=2147483647&v=beta&t=WGbWftaCmL7KvwSOlHSnVQAsX3vq0ivJGwZW74pphiw);
     background-repeat: no-repeat;
     background-size: cover;
+#s{
+    margin-top: 10px;
 }
 i{
     margin-left:5px;
+footer{
+    background-color: gray;
+    text-align: center;
 }
 
+article{
+    margin: 50px 1px;
+    float: left;
+    margin-left: 35px;
+}
